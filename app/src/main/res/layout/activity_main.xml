@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="@+id/nav_view"
+    android:background="#121212">
+
+
+    <FrameLayout
+        android:id="@+id/nav_host_fragment"
+        android:tag="nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="#121212"/>
+
+
+    <TextView
+        android:id="@+id/TextView_Colorbox1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_Colorbox4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_Colorbox2"
+        app:layout_constraintTop_toBottomOf="@+id/nav_host_fragment"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_color1"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox1"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox1"
+        app:layout_constraintTop_toTopOf="@+id/TextView_Colorbox1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/ImageView_color1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_colorcode1"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox1"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox1"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_item1" />
+
+    <TextView
+        android:id="@+id/TextView_colorcode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#000000"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_Colorbox1"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox1"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox1"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_color1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/TextView_Colorbox2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_Colorbox5"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_Colorbox1"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_Colorbox3"
+        app:layout_constraintTop_toBottomOf="@+id/nav_host_fragment"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="부제"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_color2"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox2"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox2"
+        app:layout_constraintTop_toTopOf="@+id/TextView_Colorbox2"
+        app:layout_constraintVertical_chainStyle="packed"
+
+        />
+
+    <ImageView
+        android:id="@+id/ImageView_color2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_colorcode2"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox2"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox2"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_item2"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_colorcode2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#000000"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_Colorbox2"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox2"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox2"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_color2"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/TextView_Colorbox3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="32dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_Colorbox6"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_Colorbox2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav_host_fragment"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="본문"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_color3"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox3"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox3"
+        app:layout_constraintTop_toTopOf="@+id/TextView_Colorbox3"
+        app:layout_constraintVertical_chainStyle="packed"
+
+        />
+
+    <ImageView
+        android:id="@+id/ImageView_color3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_colorcode3"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox3"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox3"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_item3"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_colorcode3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#000000"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_Colorbox3"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox3"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox3"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_color3"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/TextView_Colorbox4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="32dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_Colorbox5"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Colorbox1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_item4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="장식"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_color4"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox4"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox4"
+        app:layout_constraintTop_toTopOf="@+id/TextView_Colorbox4"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/ImageView_color4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_colorcode4"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox4"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox4"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_item4" />
+
+    <TextView
+        android:id="@+id/TextView_colorcode4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#000000"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_Colorbox4"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox4"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox4"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_color4"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/TextView_Colorbox5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_Colorbox4"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_Colorbox6"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Colorbox2"
+        app:layout_constraintVertical_chainStyle="packed"
+
+
+        />
+
+    <TextView
+        android:id="@+id/TextView_item5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="배경"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_color5"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox5"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox5"
+        app:layout_constraintTop_toTopOf="@+id/TextView_Colorbox5"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/ImageView_color5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_colorcode5"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox5"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox5"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_item5" />
+
+    <TextView
+        android:id="@+id/TextView_colorcode5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#000000"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_Colorbox5"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox5"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox5"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_color5" />
+
+    <TextView
+
+        android:id="@+id/TextView_Colorbox6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="32dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_Colorbox5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Colorbox3"
+
+        />
+
+    <ImageView
+        android:id="@+id/ImageView_edit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:src="@drawable/baseline_palette_white_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_edit"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox6"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox6"
+        app:layout_constraintTop_toTopOf="@+id/TextView_Colorbox6"
+        app:layout_constraintVertical_chainStyle="packed"
+
+        />
+
+    <TextView
+        android:id="@+id/TextView_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스타일"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_Colorbox6"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_Colorbox6"
+        app:layout_constraintRight_toRightOf="@+id/TextView_Colorbox6"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_edit"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlack"
+        app:itemIconTint="@drawable/bottom_navigation_colors"
+        app:itemTextColor="@drawable/bottom_navigation_colors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-7972968096388401/6142449329"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/ConstraintLayout_background3"
+    android:tag="fragment_option"
+    android:background="#DDDFE3"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/ImageView_deco3"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginEnd="190dp"
+        android:background="#40000000"
+        android:rotation="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/TextView_SubTitle3"
+        app:layout_constraintRight_toRightOf="@+id/ImageView_subdeco3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ImageView_subdeco3"
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        android:layout_marginEnd="240dp"
+        android:background="#000000"
+        android:rotation="40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/TextView_SubTitle3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_SubTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="프레젠테이션에서"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_content3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/TextView_content3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:gravity="center|right"
+        android:text="프레젠테이션의 색감과 균형은\n발표의 수준을 높여줍니다.\n눈이 불편하지 않고\n한눈에 알아볼 수 있는\n디자인과 색조합을\n찾아보세요."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:lineSpacingExtra="3dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_SubTitle3" />
+
+    <TextView
+        android:id="@+id/ChartBox"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_content3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/char1"
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#555555"
+        app:layout_constraintBottom_toBottomOf="@+id/ChartBox"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="@+id/ChartBox"
+        app:layout_constraintRight_toLeftOf="@+id/char2" />
+
+    <TextView
+        android:id="@+id/TextView_yeartext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="2017"
+        android:textSize="8sp"
+        app:layout_constraintLeft_toLeftOf="@+id/char1"
+        app:layout_constraintRight_toRightOf="@+id/char1"
+        app:layout_constraintTop_toBottomOf="@+id/char1" />
+
+    <TextView
+        android:id="@+id/TextView_statetext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="60"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/char1"
+        app:layout_constraintRight_toRightOf="@+id/char1"
+        app:layout_constraintBottom_toTopOf="@+id/char1" />
+
+    <ImageView
+        android:id="@+id/char2"
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="#555555"
+        app:layout_constraintBottom_toBottomOf="@+id/ChartBox"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@+id/char1"
+        app:layout_constraintRight_toLeftOf="@+id/char3" />
+
+    <TextView
+        android:id="@+id/TextView_yeartext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="2018"
+        android:textSize="8sp"
+        app:layout_constraintLeft_toLeftOf="@+id/char2"
+        app:layout_constraintRight_toRightOf="@+id/char2"
+        app:layout_constraintTop_toBottomOf="@+id/char2" />
+
+    <TextView
+        android:id="@+id/TextView_statetext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="80"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/char2"
+        app:layout_constraintRight_toRightOf="@+id/char2"
+        app:layout_constraintBottom_toTopOf="@+id/char2" />
+
+    <ImageView
+        android:id="@+id/char3"
+        android:layout_width="20dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        android:background="#555555"
+        app:layout_constraintBottom_toBottomOf="@+id/ChartBox"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@+id/char2"
+        app:layout_constraintRight_toRightOf="@id/ChartBox" />
+
+    <TextView
+        android:id="@+id/TextView_yeartext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="2019"
+        android:textSize="8sp"
+        app:layout_constraintLeft_toLeftOf="@+id/char3"
+        app:layout_constraintRight_toRightOf="@+id/char3"
+        app:layout_constraintTop_toBottomOf="@+id/char3" />
+
+    <TextView
+        android:id="@+id/TextView_statetext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="80"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/char3"
+        app:layout_constraintRight_toRightOf="@+id/char3"
+        app:layout_constraintBottom_toTopOf="@+id/char3" />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

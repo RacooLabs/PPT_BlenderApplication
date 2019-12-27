@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout_background2"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#DDDFE3"
+    android:tag="fragment_list"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/ImageView_deco2"
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        android:background="#40000000"
+        android:rotation="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/ImageView_subdeco2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ImageView_subdeco2"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="75dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_contentbox1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/TextView_contentbox1_round"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@id/TextView_contentbox1_content"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox1"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox1_subTitle"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox1" />
+
+    <TextView
+        android:id="@+id/TextView_listid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox1_round"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox1_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox1_round"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox1_round" />
+
+    <TextView
+        android:id="@+id/TextView_contentbox1_subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="템플릿"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_contentbox1_content"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_contentbox1_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox1"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox1"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/TextView_contentbox1_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="템프릿의 사용\n템플릿의 종류"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox1"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox1"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox1"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_contentbox1_subTitle"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/TextView_contentbox2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/TextView_contentbox2_round"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@id/TextView_contentbox2_content"
+
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox2"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox2_subTitle"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox2" />
+
+    <TextView
+        android:id="@+id/TextView_listid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox2_round"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox2_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox2_round"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox2_round" />
+
+    <TextView
+        android:id="@+id/TextView_contentbox2_subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="슬라이드"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_contentbox2_content"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_contentbox2_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox2"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox2"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/TextView_contentbox2_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="슬라이드의 사용\n슬라이드의 장점"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox2"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox2"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox2"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_contentbox2_subTitle"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/TextView_contentbox3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox4"
+        app:layout_constraintTop_toBottomOf="@id/TextView_contentbox1" />
+
+
+    <ImageView
+        android:id="@+id/TextView_contentbox3_round"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@id/TextView_contentbox3_content"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox3"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox3_subTitle"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox3" />
+
+    <TextView
+        android:id="@+id/TextView_listid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox3_round"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox3_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox3_round"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox3_round" />
+
+    <TextView
+        android:id="@+id/TextView_contentbox3_subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="차트"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_contentbox3_content"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_contentbox3_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox3"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox3"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/TextView_contentbox3_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="차트의 사용\n차트의 장점"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox3"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox3"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox3"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_contentbox3_subTitle"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/TextView_contentbox4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TextView_contentbox2" />
+
+
+    <ImageView
+        android:id="@+id/TextView_contentbox4_round"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_color"
+        app:layout_constraintBottom_toTopOf="@id/TextView_contentbox4_content"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox4"
+        app:layout_constraintRight_toLeftOf="@+id/TextView_contentbox4_subTitle"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox4" />
+
+    <TextView
+        android:id="@+id/TextView_listid4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox4_round"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox4_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox4_round"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox4_round" />
+
+    <TextView
+        android:id="@+id/TextView_contentbox4_subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="디자인"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_contentbox4_content"
+        app:layout_constraintLeft_toRightOf="@+id/TextView_contentbox4_round"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox4"
+        app:layout_constraintTop_toTopOf="@+id/TextView_contentbox4"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/TextView_contentbox4_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="디자인의 응용\n디자인 정리"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView_contentbox4"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView_contentbox4"
+        app:layout_constraintRight_toRightOf="@+id/TextView_contentbox4"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_contentbox4_subTitle"
+        android:textSize="12sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

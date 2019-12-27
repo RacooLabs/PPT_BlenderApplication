@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PPT Mixer</string>
+    <string name="title_Template">표지</string>
+    <string name="title_List">목차</string>
+    <string name="title_Option">내용</string>
+
+
+</resources>

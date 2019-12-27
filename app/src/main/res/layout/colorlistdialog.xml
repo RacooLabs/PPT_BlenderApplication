@@ -1,0 +1,489 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#121212">
+
+    <TextView
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:text="스타일"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox1"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist1_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist1_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist1_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist1_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist1_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="기본"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox2"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist2_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist2_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist2_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist2_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist2_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="문학적인"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox3"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist3_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist3_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist3_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist3_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist3_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="감성적인"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox4"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist4_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist4_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist4_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist4_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist4_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="공학적인"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox5"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist5_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist5_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist5_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist5_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist5_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="현대적인"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox6"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist6_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist6_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist6_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist6_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist6_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="계획발표"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox7"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist7_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist7_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist7_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist7_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist7_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="결과보고"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/LinearLayout_colorlistbox8"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ImageView_colorlist8_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist8_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist8_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist8_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+        <ImageView
+            android:id="@+id/ImageView_colorlist8_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/round_color"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="보노보노"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:paddingRight="20dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/TextView_listcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:text="CANCEL"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#FF3859"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
