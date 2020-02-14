@@ -26,6 +26,7 @@ import com.racoolab.topazapplication.ui.Option.OptionFragment;
 import com.racoolab.topazapplication.ui.Template.TemplateFragment;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentManager;
@@ -56,9 +57,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       
+        ActionBar ab = getSupportActionBar() ;
+        ab.setTitle("") ;
 
         setContentView(R.layout.activity_main);
+
+
 
         Intent intent = new Intent(this, LoadingActivity.class);
         startActivity(intent);
@@ -275,7 +279,7 @@ public class MainActivity extends AppCompatActivity {
                 ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
                 ClipData clipData = ClipData.newPlainText("label", getshare());
                 clipboardManager.setPrimaryClip(clipData);
-                Toast.makeText(getApplication(), "색상코드가 복사되었습니다.",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(), "Color code has been copied.",Toast.LENGTH_LONG).show();
 
                 return true;
 
@@ -286,8 +290,8 @@ public class MainActivity extends AppCompatActivity {
 
     String getshare(){
 
-        String string = "Title " + colorset[0].getColorcode() + "/\n" + "Subtitle " + colorset[1].getColorcode() + "/\n"
-                + "Text " + colorset[2].getColorcode() + "/\n" + "Decoration " + colorset[3].getColorcode() + "/\n"
+        String string = "Title " + colorset[0].getColorcode() + "\n" + "Subtitle " + colorset[1].getColorcode() + "\n"
+                + "Text " + colorset[2].getColorcode() + "\n" + "Decoration " + colorset[3].getColorcode() + "\n"
                 + "Background " + colorset[4].getColorcode();
 
          return string;

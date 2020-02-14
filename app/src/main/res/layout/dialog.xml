@@ -10,7 +10,7 @@
         android:background="#000000"
         android:text="Edit Color"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textColor="#ffffff"
         android:layout_marginBottom="20dp"/>
 
@@ -34,7 +34,7 @@
             android:checked="false"
             android:layout_gravity="left|center"
             android:text="Title"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:gravity="center"
             android:layout_marginLeft="24dp"
@@ -44,7 +44,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:gravity="center|right"
             android:text="#"
             android:textColor="#CCCCCC"
@@ -61,6 +61,7 @@
             android:digits="0123456789ABCDEF"
             android:inputType="textCapCharacters"
             android:maxLength="6"
+            android:textSize="18sp"
             android:singleLine ="true"
             />
 
@@ -81,7 +82,7 @@
             android:checked="false"
             android:layout_gravity="left|center"
             android:text="SubTitle"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:gravity="center"
             android:layout_marginLeft="24dp"
@@ -90,7 +91,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:gravity="center|right"
             android:text="#"
             android:textColor="#CCCCCC"
@@ -108,6 +109,7 @@
             android:inputType="textCapCharacters"
             android:singleLine ="true"
             android:maxLength="6"
+            android:textSize="18sp"
             />
 
     </LinearLayout>
@@ -127,7 +129,7 @@
             android:checked="false"
             android:layout_gravity="left|center"
             android:text="Text"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:gravity="center"
             android:layout_marginLeft="24dp"
@@ -136,7 +138,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:gravity="center|right"
             android:text="#"
             android:textColor="#CCCCCC"
@@ -153,7 +155,8 @@
             android:digits="0123456789ABCDEF"
             android:inputType="textCapCharacters"
             android:singleLine ="true"
-            android:maxLength="6"/>
+            android:maxLength="6"
+            android:textSize="18sp"/>
 
 
 
@@ -174,7 +177,7 @@
             android:checked="false"
             android:layout_gravity="left|center"
             android:text="Deco"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:gravity="center"
             android:layout_marginLeft="24dp"
@@ -183,7 +186,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:gravity="center|right"
             android:text="#"
             android:textColor="#CCCCCC"
@@ -200,7 +203,8 @@
             android:digits="0123456789ABCDEF"
             android:inputType="textCapCharacters"
             android:singleLine ="true"
-            android:maxLength="6"/>
+            android:maxLength="6"
+            android:textSize="18sp"/>
 
     </LinearLayout>
 
@@ -210,7 +214,7 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:weightSum="1"
-        android:layout_marginBottom="20sp">
+        android:layout_marginBottom="16sp">
 
         <CheckBox
             android:id="@+id/CheckBox_background"
@@ -220,7 +224,7 @@
             android:checked="false"
             android:layout_gravity="left|center"
             android:text="Back"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:gravity="center"
             android:layout_marginLeft="24dp"
@@ -229,7 +233,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:gravity="center|right"
             android:text="#"
             android:textColor="#CCCCCC"
@@ -246,7 +250,8 @@
             android:digits="0123456789ABCDEF"
             android:inputType="textCapCharacters"
             android:singleLine ="true"
-            android:maxLength="6"/>
+            android:maxLength="6"
+            android:textSize="18sp"/>
 
     </LinearLayout>
 

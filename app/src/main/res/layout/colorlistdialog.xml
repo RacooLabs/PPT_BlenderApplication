@@ -10,7 +10,7 @@
         android:background="#000000"
         android:text="Style"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textColor="#ffffff"
         android:layout_marginBottom="10dp"/>
 
@@ -62,7 +62,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Default"
             />
@@ -117,7 +117,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Literary"
             />
@@ -172,7 +172,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Sensitive"
             />
@@ -227,7 +227,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Scientific"
             />
@@ -282,7 +282,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Modernistic"
             />
@@ -337,7 +337,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Planned"
             />
@@ -392,7 +392,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#FFFFFF"
             android:text="Briefing"
             />
@@ -449,7 +449,7 @@
             android:gravity="center"
             android:text="MEME"
             android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
