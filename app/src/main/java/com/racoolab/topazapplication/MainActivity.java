@@ -286,9 +286,9 @@ public class MainActivity extends AppCompatActivity {
 
     String getshare(){
 
-        String string = "제목 " + colorset[0].getColorcode() + "/\n" + "부제 " + colorset[1].getColorcode() + "/\n"
-                + "본문 " + colorset[2].getColorcode() + "/\n" + "장식 " + colorset[3].getColorcode() + "/\n"
-                + "배경 " + colorset[4].getColorcode();
+        String string = "Title " + colorset[0].getColorcode() + "/\n" + "Subtitle " + colorset[1].getColorcode() + "/\n"
+                + "Text " + colorset[2].getColorcode() + "/\n" + "Decoration " + colorset[3].getColorcode() + "/\n"
+                + "Background " + colorset[4].getColorcode();
 
          return string;
 
